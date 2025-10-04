@@ -1,3 +1,15 @@
+:root {
+	--h1-color: #fff;
+	--h2-color: #52eea3;
+	--h3-color: #51e1e9;
+	--h4-color: #437cf3;
+	--h5-color: #6f51f4;
+	--h6-color: #c952ed;
+	--bold-color: #37aaff;
+	--italic-color: #ff82b2;
+	--bold-weight: 900;
+}
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -37,5 +49,3 @@ svg * {
 .inline-title {
 	text-align: center;
 }
-
-/* Headers */
