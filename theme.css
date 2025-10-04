@@ -7,7 +7,6 @@
 	--h6-color: #c952ed;
 	--bold-color: #37aaff;
 	--italic-color: #ff82b2;
-	--bold-weight: 900;
 }
 
 body {
@@ -45,7 +44,18 @@ svg * {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
 
-/* Inline Title */
-.inline-title {
+/* journal class */
+.inline-title,
+.HyperMD-header-1,
+.journal .HyperMD-header-6 {
 	text-align: center;
+	color: #fff;
+}
+
+.cm-strong {
+	font-weight: 900;
+}
+
+.cm-em {
+	font-weight: 300;
 }
