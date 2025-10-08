@@ -24,13 +24,6 @@
 	--titlebar-background-focused: var(--color-base-10);
 }
 
-.page-manila .theme-dark {
-	--page-manila: #f3deaf;
-	--page-color: var(--page-manila);
-	
-
-}
-
 /* journal class */
 .inline-title,
 .HyperMD-header-1,
