@@ -15,7 +15,6 @@
 /* Amoled Dark Theme */
 .theme-dark {
 	--color-base-00: #000;
-	/* --color-base-05: #0df; */
 	--color-base-05: #080808;
 	--color-base-10: #111;
 	--background-primary: var(--color-base-00);
