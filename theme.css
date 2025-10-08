@@ -14,13 +14,22 @@
 
 /* Amoled Dark Theme */
 .theme-dark {
-	--color-base-00: #000;
-	--color-base-05: #080808;
-	--color-base-10: #111;
-	--background-primary: var(--color-base-00);
+	--color-base-00: #000; /* this is the main color throughout UI */
+	--color-base-05: #080808; /* this is the color of side menus */
+	--color-base-10: #111; /* color of the top banner with close, resize, and minimize */
+	--color-base-20: #262626; /* color base 05 and 10 combined */
+	--color-base-25: orange; /* background color of input text boxes */
+	--color-base-30: #363636; /* color of outlines */
+	--color-base-35: green; /* outline for dropdown menu in main UI */
+	--color-base-40: blue; /* outline for settings menu and tab selection */
+	--color-base-50: ; /* section colors in settings and YAML frontmatter */
+	--color-base-60: olive; 
+	--color-base-70: #bababa; /* color of menu items */
+	--color-base-100: #dadada; /* text color of note */
+	/* --background-primary: var(--color-base-00);
 	--background-secondary: var(--color-base-05);
 	--titlebar-background: var(--color-base-00);
-	--titlebar-background-focused: var(--color-base-10);
+	--titlebar-background-focused: var(--color-base-10); */
 }
 
 /* journal class */
