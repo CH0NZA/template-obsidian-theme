@@ -7,6 +7,28 @@
 	--h6-color: #c952ed;
 	--bold-color: #37aaff;
 	--italic-color: #ff82b2;
+	/* colors I found and really liked */
+	--obsidinite-blue: #0df;
+	
+}
+
+/* Amoled Dark Theme */
+.theme-dark {
+	--color-base-00: #000;
+	/* --color-base-05: #0df; */
+	--color-base-05: #080808;
+	--color-base-10: #111;
+	--background-primary: var(--color-base-00);
+	--background-secondary: var(--color-base-05);
+	--titlebar-background: var(--color-base-00);
+	--titlebar-background-focused: var(--color-base-10);
+}
+
+.page-manila .theme-dark {
+	--page-manila: #f3deaf;
+	--page-color: var(--page-manila);
+	
+
 }
 
 /* journal class */
